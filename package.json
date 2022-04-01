@@ -1,0 +1,36 @@
+{
+  "name": "@stdlib/stats-base-dists-gumbel-logcdf",
+  "version": "0.0.0",
+  "description": "Gumbel distribution logarithm of cumulative distribution function.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-base-dists-gumbel-logcdf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "distribution",
+    "dist",
+    "probability",
+    "cdf",
+    "cumulative distribution",
+    "distribution function",
+    "logarithm",
+    "gumbel",
+    "univariate",
+    "continuous"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
