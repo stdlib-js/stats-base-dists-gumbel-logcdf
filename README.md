@@ -65,13 +65,13 @@ where `mu` is the location parameter and `beta > 0` is the scale parameter.
 ## Usage
 
 ```javascript
-import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-logcdf@esm/index.mjs';
+import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-logcdf@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-logcdf@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-logcdf@v0.2.0-esm/index.mjs';
 ```
 
 #### logcdf( x, mu, beta )
@@ -153,7 +153,7 @@ y = mylogcdf( -2.0 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-logcdf@esm/index.mjs';
+import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-logcdf@v0.2.0-esm/index.mjs';
 
 var beta;
 var mu;
