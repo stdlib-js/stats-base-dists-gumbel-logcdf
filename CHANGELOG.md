@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-24)
+## Unreleased (2025-03-01)
 
 <section class="features">
 
@@ -20,9 +20,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3646](https://github.com/stdlib-js/stdlib/issues/3646)
+[#3646](https://github.com/stdlib-js/stdlib/issues/3646), [#5427](https://github.com/stdlib-js/stdlib/issues/5427)
 
 </section>
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`3e9c53b`](https://github.com/stdlib-js/stdlib/commit/3e9c53b529d3523c5360ebd5788bddfea42b0a5d) - **chore:** address commit comments [(#5460)](https://github.com/stdlib-js/stdlib/pull/5460) _(by Harsh)_
 -   [`124f3b1`](https://github.com/stdlib-js/stdlib/commit/124f3b1827e713c9fe97119ae4285ee6940b6473) - **feat:** add C implementation of `stats/base/dists/gumbel/logcdf` [(#4081)](https://github.com/stdlib-js/stdlib/pull/4081) _(by Vinit Pandit, Philipp Burckhardt, stdlib-bot)_
 -   [`105b812`](https://github.com/stdlib-js/stdlib/commit/105b8121cd65f5bb520351b48c945996e1dfb6aa) - **bench:** refactor random number generation in `stats/base/dists/gumbel` [(#4933)](https://github.com/stdlib-js/stdlib/pull/4933) _(by Karan Anand, stdlib-bot)_
 
@@ -47,8 +48,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Harsh
 -   Karan Anand
 -   Philipp Burckhardt
 -   Vinit Pandit
