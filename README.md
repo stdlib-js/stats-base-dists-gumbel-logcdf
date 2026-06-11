@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> [Gumbel][gumbel-distribution] distribution logarithm of [cumulative distribution function][cdf].
+> [Gumbel][gumbel-distribution] distribution natural logarithm of [cumulative distribution function][cdf].
 
 <section class="intro">
 
@@ -88,7 +88,7 @@ var logcdf = require( '@stdlib/stats-base-dists-gumbel-logcdf' );
 
 #### logcdf( x, mu, beta )
 
-Evaluates the logarithm of the [cumulative distribution function][cdf] (CDF) for a [Gumbel][gumbel-distribution] distribution with parameters `mu` (location parameter) and `beta` (scale parameter).
+Evaluates the natural logarithm of the [cumulative distribution function][cdf] (CDF) for a [Gumbel][gumbel-distribution] distribution with parameters `mu` (location parameter) and `beta` (scale parameter).
 
 ```javascript
 var y = logcdf( 10.0, 0.0, 3.0 );
@@ -205,7 +205,7 @@ logEachMap( 'x: %0.4f, µ: %0.4f, β: %0.4f, ln(F(x;µ,β)): %0.4f', x, mu, beta
 
 #### stdlib_base_dists_gumbel_logcdf( x, mu, beta )
 
-Evaluates the logarithm of the [cumulative distribution function][cdf] (CDF) for a [Gumbel][gumbel-distribution] distribution with parameters `mu` (location parameter) and `beta` (scale parameter).
+Evaluates the natural logarithm of the [cumulative distribution function][cdf] (CDF) for a [Gumbel][gumbel-distribution] distribution with parameters `mu` (location parameter) and `beta` (scale parameter).
 
 ```c
 double out = stdlib_base_dists_gumbel_logcdf( 10.0, 0.0, 3.0 );
